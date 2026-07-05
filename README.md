@@ -119,9 +119,3 @@ Simple Interest = (Principal × Rate × Time) / 100
 **Areej Fatima**
 
 GitHub: https://github.com/Areej39
-
----
-
-## License
-
-This project is licensed under the MIT License.
