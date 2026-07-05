@@ -8,8 +8,6 @@ A responsive Simple Interest Calculator built with React, Vite, Tailwind CSS, sh
 
 https://interest-calculator-areej39.netlify.app/
 
-> Replace the URL above if your deployed link is different.
-
 ---
 
 ## Screenshot
