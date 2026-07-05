@@ -1,16 +1,127 @@
-# React + Vite
+# Simple Interest Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive Simple Interest Calculator built with React, Vite, Tailwind CSS, shadcn/ui, and Lucide React. This application allows users to calculate simple interest by entering the principal amount, annual interest rate, and time period.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Demo
 
-## React Compiler
+https://interest-calculator-areej39.netlify.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+> Replace the URL above if your deployed link is different.
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Screenshot
+
+![Simple Interest Calculator](./screenshot.png)
+
+---
+
+## Features
+
+- Calculate simple interest instantly
+- Display total amount (Principal + Interest)
+- Prevent negative number inputs
+- Clear all input fields with one click
+- Responsive design for desktop and mobile devices
+- Clean and modern user interface
+- Built using reusable shadcn/ui components
+
+---
+
+## Technologies Used
+
+- React
+- Vite
+- Tailwind CSS
+- shadcn/ui
+- Lucide React
+- JavaScript (ES6+)
+
+---
+
+## Project Structure
+
+```text
+interest-calculator/
+│
+├── public/
+├── src/
+│   ├── components/
+│   │   └── ui/
+│   ├── lib/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+│
+├── screenshot.png
+├── package.json
+├── package-lock.json
+├── vite.config.js
+├── index.html
+└── README.md
+```
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Areej39/interest-calculator.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd interest-calculator
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Build the project for production:
+
+```bash
+npm run build
+```
+
+Preview the production build:
+
+```bash
+npm run preview
+```
+
+---
+
+## Formula Used
+
+```text
+Simple Interest = (Principal × Rate × Time) / 100
+```
+
+---
+
+## Author
+
+**Areej Fatima**
+
+GitHub: https://github.com/Areej39
+
+---
+
+## License
+
+This project is licensed under the MIT License.
